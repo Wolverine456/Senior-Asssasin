@@ -1,0 +1,26 @@
+Libraries Needed:
+
+To run this image recognition web app, you need the following libraries:
+
+    TensorFlow (for model inference)
+    Keras (for building and using deep learning models)
+    Streamlit (for creating the web app interface)
+    Pillow (for image manipulation)
+
+Installation Commands:
+
+To install the required libraries, run the following commands in your terminal:
+
+pip install tensorflow
+pip install streamlit
+pip install pillow
+
+For consistency across IDEs like VSCode or PyCharm, using a requirements.txt file with the following content is recommended:
+
+tensorflow==2.14.0
+streamlit==1.19.0
+Pillow==9.3.0
+
+To install all dependencies from requirements.txt, use:
+
+pip install -r requirements.txt
