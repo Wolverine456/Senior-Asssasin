@@ -3,6 +3,7 @@ from PIL import Image, ImageOps
 import tensorflow as tf
 import numpy as np
 
+
 # Load the pre-trained model
 model = tf.keras.applications.MobileNetV2(weights='imagenet')
 
